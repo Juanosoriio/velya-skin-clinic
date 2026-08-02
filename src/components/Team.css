@@ -1,0 +1,140 @@
+.team {
+  padding: 5rem 1.5rem;
+  background-color: var(--color-beige);
+}
+
+.team__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team__header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.team__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.75rem;
+}
+
+.team__accent {
+  width: 60px;
+  height: 4px;
+  background-color: var(--color-secondary);
+  border-radius: 2px;
+  margin: 0 auto 1.25rem;
+}
+
+.team__subtitle {
+  color: var(--color-text-light);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.team__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.team__card {
+  background-color: var(--color-white);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  animation: fadeInUp 0.7s ease-out both;
+}
+
+.team__card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.team__card:nth-child(2) {
+  animation-delay: 0.12s;
+}
+.team__card:nth-child(3) {
+  animation-delay: 0.19s;
+}
+.team__card:nth-child(4) {
+  animation-delay: 0.26s;
+}
+.team__card:nth-child(5) {
+  animation-delay: 0.33s;
+}
+.team__card:nth-child(6) {
+  animation-delay: 0.40s;
+}
+
+.team__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.team__avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  font-size: 2.5rem;
+  color: var(--color-white);
+  box-shadow: 0 4px 14px rgba(44, 110, 145, 0.25);
+}
+
+.team__card-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.75rem;
+}
+
+.team__card-text {
+  color: var(--color-text);
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .team {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .team__title {
+    font-size: 2rem;
+  }
+
+  .team__grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .team__card {
+    padding: 1.75rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .team__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

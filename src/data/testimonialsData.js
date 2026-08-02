@@ -1,0 +1,42 @@
+export const testimonialsData = [
+  {
+    nombre: 'Paciente Vélya',
+    tratamiento: 'Tratamiento de acné',
+    texto: 'Después de años de probar productos sin resultado, en Vélya me dieron un plan real. Mi piel cambió y mi confianza también. El acompañamiento fue increíble.',
+    estrellas: 5,
+    imagenAntes: null,
+    imagenDespues: null,
+  },
+  {
+    nombre: 'M.R.',
+    tratamiento: 'Despigmentación',
+    texto: 'Llegué con manchas muy notorias y en pocas sesiones vi una diferencia enorme. No solo me ayudaron con mi piel, sino que me explicaron cada paso del tratamiento.',
+    estrellas: 5,
+    imagenAntes: null,
+    imagenDespues: null,
+  },
+  {
+    nombre: 'Paciente de 28 años',
+    tratamiento: 'Rejuvenecimiento facial',
+    texto: 'El equipo de Vélya entendió exactamente lo que quería. Mi piel se ve más fresca y luminosa. Me sentí en buenas manos desde la primera consulta.',
+    estrellas: 5,
+    imagenAntes: null,
+    imagenDespues: null,
+  },
+  {
+    nombre: 'Paciente Vélya',
+    tratamiento: 'Terapia para rosácea',
+    texto: 'La rosácea me molestaba mucho y ya no sabía qué más hacer. Gracias al tratamiento personalizado y los productos recomendados, hoy me siento mucho más cómodo con mi piel.',
+    estrellas: 5,
+    imagenAntes: null,
+    imagenDespues: null,
+  },
+  {
+    nombre: 'Paciente de 34 años',
+    tratamiento: 'Limpieza facial + terapias',
+    texto: 'La experiencia fue muy completa: limpieza, valoración y seguimiento. Se nota que en Vélya realmente se preocupan por los resultados y no solo por la consulta.',
+    estrellas: 5,
+    imagenAntes: null,
+    imagenDespues: null,
+  },
+]

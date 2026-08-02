@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #2C6E91;
+  --color-primary-dark: #1F4F6B;
+  --color-secondary: #8FBFA3;
+  --color-beige: #F2E9DD;
+  --color-white: #FFFFFF;
+  --color-text: #222222;
+  --color-text-light: #666666;
+}
+
+html {
+  scroll-behavior: smooth;
+} 
