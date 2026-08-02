@@ -11,13 +11,17 @@
   margin: 0 auto;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   align-items: center;
+  text-align: center;
 }
 
 .hero__content {
   animation: fadeInUp 0.8s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero__title {
@@ -41,6 +45,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
 }
 
 .hero__btn {
@@ -80,37 +85,6 @@
 
 .hero__btn--secondary:hover {
   background-color: rgba(44, 110, 145, 0.06);
-}
-
-.hero__image {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  border-radius: 24px;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-white);
-  font-size: 1.125rem;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  overflow: hidden;
-  animation: fadeInUp 0.8s ease-out 0.15s both;
-}
-
-.hero__image::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.25) 0%, transparent 60%);
-}
-
-.hero__image span {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  padding: 1rem;
 }
 
 @keyframes fadeInUp {

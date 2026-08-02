@@ -24,9 +24,6 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="hero__image">
-          <span>Imagen clínica</span>
-        </div>
       </div>
     </section>
   )
