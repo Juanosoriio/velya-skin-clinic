@@ -8,7 +8,6 @@ function Footer() {
           <div className="footer__brand">
             <h3 className="footer__logo">
               <img src="/src/assets/images/logo.png" alt="VELYA SKIN CLINIC" className="footer__logo-img" />
-              <span>VELYA SKIN CLINIC</span>
             </h3>
             <p className="footer__tagline">Cuidamos tu piel, transformamos tu confianza</p>
             <a

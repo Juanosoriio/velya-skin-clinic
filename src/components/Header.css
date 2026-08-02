@@ -22,10 +22,6 @@
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--color-primary-dark);
-  letter-spacing: 1px;
   text-decoration: none;
 }
 
@@ -33,14 +29,6 @@
   height: 36px;
   width: auto;
   display: block;
-}
-
-.header__logo span {
-  font-weight: 400;
-  font-size: 0.9rem;
-  display: block;
-  color: var(--color-text-light);
-  letter-spacing: 3px;
 }
 
 /* Navegación */
