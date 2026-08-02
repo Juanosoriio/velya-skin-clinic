@@ -9,6 +9,7 @@ import WhyChooseUs from './components/WhyChooseUs'
 import Testimonials from './components/Testimonials'
 import Team from './components/Team'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       <Testimonials />
       <Team />
       <Contact />
-      {/* Aquí seguirán las demás secciones: Footer, etc. */}
+      <Footer />
     </div>
   )
 }
