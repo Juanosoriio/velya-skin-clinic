@@ -42,7 +42,7 @@ function Services() {
           <h2 className="services__title">Nuestros Servicios</h2>
           <div className="services__accent" />
           <p className="services__subtitle">
-            VÉLYA SKIN CLINIC ofrece un modelo integral donde el paciente recibe diagnóstico,
+            VELYA SKIN CLINIC ofrece un modelo integral donde el paciente recibe diagnóstico,
             tratamiento, terapia y productos dermatológicos en un solo lugar, reduciendo tiempos,
             mejorando la adherencia al tratamiento y garantizando resultados más efectivos.
           </p>

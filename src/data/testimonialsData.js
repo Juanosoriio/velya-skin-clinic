@@ -1,8 +1,8 @@
 export const testimonialsData = [
   {
-    nombre: 'Paciente Vélya',
+    nombre: 'Paciente VELYA',
     tratamiento: 'Tratamiento de acné',
-    texto: 'Después de años de probar productos sin resultado, en Vélya me dieron un plan real. Mi piel cambió y mi confianza también. El acompañamiento fue increíble.',
+    texto: 'Después de años de probar productos sin resultado, en VELYA me dieron un plan real. Mi piel cambió y mi confianza también. El acompañamiento fue increíble.',
     estrellas: 5,
     imagenAntes: null,
     imagenDespues: null,
@@ -18,13 +18,13 @@ export const testimonialsData = [
   {
     nombre: 'Paciente de 28 años',
     tratamiento: 'Rejuvenecimiento facial',
-    texto: 'El equipo de Vélya entendió exactamente lo que quería. Mi piel se ve más fresca y luminosa. Me sentí en buenas manos desde la primera consulta.',
+    texto: 'El equipo de VELYA entendió exactamente lo que quería. Mi piel se ve más fresca y luminosa. Me sentí en buenas manos desde la primera consulta.',
     estrellas: 5,
     imagenAntes: null,
     imagenDespues: null,
   },
   {
-    nombre: 'Paciente Vélya',
+    nombre: 'Paciente VELYA',
     tratamiento: 'Terapia para rosácea',
     texto: 'La rosácea me molestaba mucho y ya no sabía qué más hacer. Gracias al tratamiento personalizado y los productos recomendados, hoy me siento mucho más cómodo con mi piel.',
     estrellas: 5,
@@ -34,7 +34,7 @@ export const testimonialsData = [
   {
     nombre: 'Paciente de 34 años',
     tratamiento: 'Limpieza facial + terapias',
-    texto: 'La experiencia fue muy completa: limpieza, valoración y seguimiento. Se nota que en Vélya realmente se preocupan por los resultados y no solo por la consulta.',
+    texto: 'La experiencia fue muy completa: limpieza, valoración y seguimiento. Se nota que en VELYA realmente se preocupan por los resultados y no solo por la consulta.',
     estrellas: 5,
     imagenAntes: null,
     imagenDespues: null,

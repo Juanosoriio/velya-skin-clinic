@@ -59,7 +59,7 @@ function WhyChooseUs() {
         </div>
 
         <div className="why-choose-us__model">
-          <h3 className="why-choose-us__model-title">Modelo VÉLYA Skin</h3>
+          <h3 className="why-choose-us__model-title">Modelo VELYA Skin</h3>
           <div className="why-choose-us__flow">
             {modelSteps.map((step, index) => (
               <>

@@ -11,7 +11,7 @@ function AboutUs() {
 
         <blockquote className="about__story">
           “VÉ” evoca belleza, visión y estética. “LYA” aporta un sonido suave, femenino y
-          elegante. En conjunto, VÉLYA suena a marca exclusiva, moderna y delicada, tipo europea.
+          elegante. En conjunto, VELYA suena a marca exclusiva, moderna y delicada, tipo europea.
           Se percibe como belleza elevada, cuidado fino de la piel y armonía estética.
         </blockquote>
 

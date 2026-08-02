@@ -6,7 +6,10 @@ function Footer() {
       <div className="footer__container">
         <div className="footer__grid">
           <div className="footer__brand">
-            <h3 className="footer__logo">VÉLYA <span>SKIN CLINIC</span></h3>
+            <h3 className="footer__logo">
+              <img src="/src/assets/images/logo.png" alt="VELYA SKIN CLINIC" className="footer__logo-img" />
+              <span>VELYA SKIN CLINIC</span>
+            </h3>
             <p className="footer__tagline">Cuidamos tu piel, transformamos tu confianza</p>
             <a
               href="https://chat.whatsapp.com/KCraZOBRqaQDitpuaUNOIH"
@@ -65,7 +68,7 @@ function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <p>&copy; {new Date().getFullYear()} VÉLYA SKIN CLINIC. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} VELYA SKIN CLINIC. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
