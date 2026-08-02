@@ -116,7 +116,7 @@ function Contact() {
             {/* Reemplaza el src por la URL de embed de Google Maps de la ubicación real de la clínica cuando la tengan */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.823!2d-74.072!3d4.711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwMzcnMDAuMCJOIDc0wrAyNScyMC4wIlc!5e0!3m2!1ses!2sco!4v1690000000000"
-              title="Ubicación de Vélya Skin Clinic"
+               title="Ubicación de VÉLYA SKIN CLINIC"
               allowFullScreen
               loading="lazy"
             />

@@ -47,7 +47,7 @@
 }
 
 .why-choose-us__tag {
-  background-color: #FAF7F3;
+  background-color: var(--color-beige);
   color: var(--color-primary-dark);
   font-size: 0.875rem;
   font-weight: 600;

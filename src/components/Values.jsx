@@ -46,7 +46,7 @@ function Values() {
           <h2 className="values__title">Nuestros Valores</h2>
           <div className="values__accent" />
           <p className="values__subtitle">
-            Los principios que guían cada atención en Vélya Skin Clinic
+            Los principios que guían cada atención en VÉLYA SKIN CLINIC
           </p>
         </div>
 
