@@ -26,9 +26,17 @@
 }
 
 .header__logo-img {
-  height: 36px;
+  height: 42px;
   width: auto;
-  display: block;
+  object-fit: contain;
+}
+
+.header__logo-text {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  letter-spacing: 0.5px;
+  line-height: 1;
 }
 
 /* Navegación */

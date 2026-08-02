@@ -22,16 +22,6 @@ const services = [
     ],
     plus: true,
   },
-  {
-    icon: '🛍️',
-    title: 'Tienda dermatológica',
-    items: [
-      'Medicamentos dermatológicos',
-      'Dermocosméticos',
-      'Rutinas personalizadas',
-    ],
-    plus: true,
-  },
 ]
 
 function Services() {

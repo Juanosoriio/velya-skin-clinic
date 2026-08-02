@@ -11,6 +11,7 @@ function Header() {
 
         <a href="#inicio" className="header__logo">
           <img src={logoImage} alt="VELYA SKIN CLINIC" className="header__logo-img" />
+          <span className="header__logo-text">VELYA SKIN CLINIC</span>
         </a>
 
         <nav className={`header__nav ${menuOpen ? 'header__nav--open' : ''}`}>
