@@ -1,4 +1,5 @@
 import './Footer.css'
+import logoImage from '/src/assets/images/logo.png'
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <div className="footer__grid">
           <div className="footer__brand">
             <h3 className="footer__logo">
-              <img src="/src/assets/images/logo.png" alt="VELYA SKIN CLINIC" className="footer__logo-img" />
+              <img src={logoImage} alt="VELYA SKIN CLINIC" className="footer__logo-img" />
             </h3>
             <p className="footer__tagline">Cuidamos tu piel, transformamos tu confianza</p>
             <a
