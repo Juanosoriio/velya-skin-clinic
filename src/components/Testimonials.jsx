@@ -17,6 +17,15 @@ function Testimonials() {
 
   const renderStars = (count) => '★'.repeat(count)
 
+  const resolveSrc = (path) => {
+    if (!path) return ''
+    try {
+      return new URL(path, import.meta.url).href
+    } catch {
+      return path
+    }
+  }
+
   return (
     <section id="testimonios" className="testimonials">
       <div className="testimonials__container">
@@ -42,7 +51,7 @@ function Testimonials() {
                     <div className="testimonials__image-wrapper">
                       {item.imagenAntes ? (
                         <img
-                          src={item.imagenAntes}
+                          src={resolveSrc(item.imagenAntes)}
                           alt="Antes"
                           className="testimonials__image"
                         />
@@ -53,7 +62,7 @@ function Testimonials() {
                     <div className="testimonials__image-wrapper">
                       {item.imagenDespues ? (
                         <img
-                          src={item.imagenDespues}
+                          src={resolveSrc(item.imagenDespues)}
                           alt="Después"
                           className="testimonials__image"
                         />
