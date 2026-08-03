@@ -7,6 +7,11 @@ const values = [
     text: 'Trabajamos con dedicación para garantizar el bienestar de cada paciente.',
   },
   {
+    icon: '⚖️',
+    title: 'Ética',
+    text: 'Actuamos con transparencia, responsabilidad y respeto en todos nuestros procesos.',
+  },
+  {
     icon: '✨',
     title: 'Calidad',
     text: 'Ofrecemos servicios con altos estándares científicos y tecnológicos.',
@@ -15,6 +20,21 @@ const values = [
     icon: '💙',
     title: 'Humanización',
     text: 'Brindamos una atención cálida, empática y centrada en el paciente.',
+  },
+  {
+    icon: '🚀',
+    title: 'Innovación',
+    text: 'Incorporamos nuevas tecnologías y tratamientos dermatológicos avanzados.',
+  },
+  {
+    icon: '👥',
+    title: 'Trabajo en equipo',
+    text: 'Fomentamos la colaboración entre profesionales de la salud.',
+  },
+  {
+    icon: '🌱',
+    title: 'Responsabilidad social',
+    text: 'Promovemos el cuidado de la piel y la prevención en la comunidad.',
   },
 ]
 
