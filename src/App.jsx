@@ -1,4 +1,5 @@
 import './assets/styles/global.css'
+import OffersBanner from './components/OffersBanner'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import AboutUs from './components/AboutUs'
@@ -14,6 +15,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="app">
+      <OffersBanner />
       <Header />
       <Hero />
       <AboutUs />
